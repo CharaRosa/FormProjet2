@@ -6,10 +6,17 @@ html {
     font-family: Roboto, sans-serif;
     scroll-behavior: smooth
 }
-
-.contenaire {
+/* style de menu principale*/
+.contenairep {
     max-width: 1280px;
     margin: auto;
+    position: relative
+}
+.menu{
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+    z-index: 1;
     position: relative
 }
 .header {
@@ -137,7 +144,7 @@ html {
     left: 0;
     bottom: 0
 }
-
+/*
 .listeItem {
     background-color: #fff;
     padding: 1rem;
@@ -251,6 +258,18 @@ html {
 
 .delay-8 {
     animation-delay: .8s
+}
+    */
+.listeItemGroup{
+    display: flex;
+    border: 1px solid transparent;
+    background-color: white;
+    width: 470px;
+    height: 60px;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    animation: effet-menu 1s ease-in;
 }
 .wrapBtn {
     display: flex;
