@@ -88,7 +88,20 @@ margin: 0;
     display: flex;
     position: relative
 }
+.fonctionLIBleu:hover{
+  background:rgb(62, 62, 253);
+  color: white;
+}
+.fonctionLIJaune:hover{
+  background:rgb(252, 252, 93);
+  color: #8d34fa;
 
+}
+.fonctionLIRouge:hover{
+  background:rgb(255, 70, 70);
+  color: white;
+
+}
 .fonctionChiffre{
   background: #9356dc;
   height: 1.6rem;
