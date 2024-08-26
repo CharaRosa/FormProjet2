@@ -89,16 +89,16 @@ margin: 0;
     position: relative
 }
 .fonctionLIBleu:hover{
-  background:rgb(62, 62, 253);
+  background:blue;
   color: white;
 }
 .fonctionLIJaune:hover{
-  background:rgb(252, 252, 93);
+  background:yellow;
   color: #8d34fa;
 
 }
 .fonctionLIRouge:hover{
-  background:rgb(255, 70, 70);
+  background:red;
   color: white;
 
 }
