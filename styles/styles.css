@@ -88,6 +88,10 @@ margin: 0;
     display: flex;
     position: relative
 }
+.fonctionLI:hover{
+  background: rgb(249, 79, 244);
+
+}
 .fonctionLIBleu:hover{
   background:blue;
   color: white;
